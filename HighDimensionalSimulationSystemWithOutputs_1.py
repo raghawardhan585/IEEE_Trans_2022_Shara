@@ -333,19 +333,17 @@ dict_hp['ls_nn_layers'] = [3,4]
 dict_hp['System_no'] = []
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(1,7))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(11,13))
-dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,25)) # gt
-# dict_hp['System_no'] = dict_hp['System_no'] + list(range(24,27)) # ot
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,25)) # gt
 # dict_hp['System_no'] = dict_hp['System_no'] + [25,26,28,29] # mt # list(range(27,28)) # mt
-# dict_hp['System_no'] = dict_hp['System_no'] + list(range(28,29)) # qt
-# dict_hp['System_no'] = dict_hp['System_no'] + list(range(31,40))
+dict_hp['System_no'] = dict_hp['System_no'] + list(range(31,40)) # mt
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(41,50))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(51,60))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(61,70))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(71,80))
 
-system_running = 'goldentensor'
+# system_running = 'goldentensor'
 # system_running = 'optictensor'
-# system_running = 'microtensor'
+system_running = 'microtensor'
 # system_running = 'quantensor'
 
 file = open('/Users/shara/Desktop/IEEETransactions_2022/' + system_running + '_run.sh','w')
