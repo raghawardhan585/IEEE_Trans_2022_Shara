@@ -1,38 +1,14 @@
-microtensor_run.sh: 7: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_0.txt: Directory nonexistent
-microtensor_run.sh: 9: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_1.txt: Directory nonexistent
-microtensor_run.sh: 11: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_2.txt: Directory nonexistent
-microtensor_run.sh: 13: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_3.txt: Directory nonexistent
-microtensor_run.sh: 15: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_4.txt: Directory nonexistent
-microtensor_run.sh: 17: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_5.txt: Directory nonexistent
-microtensor_run.sh: 19: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_6.txt: Directory nonexistent
-microtensor_run.sh: 21: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_7.txt: Directory nonexistent
-microtensor_run.sh: 23: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_8.txt: Directory nonexistent
-microtensor_run.sh: 25: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_9.txt: Directory nonexistent
-microtensor_run.sh: 27: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_10.txt: Directory nonexistent
-microtensor_run.sh: 29: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_11.txt: Directory nonexistent
-microtensor_run.sh: 31: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_12.txt: Directory nonexistent
-microtensor_run.sh: 33: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_13.txt: Directory nonexistent
-microtensor_run.sh: 35: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_14.txt: Directory nonexistent
-microtensor_run.sh: 37: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_15.txt: Directory nonexistent
-microtensor_run.sh: 39: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_16.txt: Directory nonexistent
-microtensor_run.sh: 41: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_17.txt: Directory nonexistent
-microtensor_run.sh: 43: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_18.txt: Directory nonexistent
-microtensor_run.sh: 45: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_19.txt: Directory nonexistent
-microtensor_run.sh: 47: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_20.txt: Directory nonexistent
-microtensor_run.sh: 49: microtensor_run.sh: cannot create System_27/MyRunInfo/Run_21.txt: Directory nonexistent
-All sessions are complete
-=======================================================
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-10 23:58:10.326667: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-10 23:58:10.329078: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-10 23:58:10.329298: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x45de690 executing computations on platform Host. Devices:
-2022-04-10 23:58:10.329310: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 00:56:03.003285: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 00:56:03.022257: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 00:56:03.022499: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x40955e0 executing computations on platform Host. Devices:
+2022-04-11 00:56:03.022513: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-10 23:58:10.338538: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 00:56:03.040937: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
   std_dev = math.sqrt(3.0 / shape[0])
 deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
@@ -49,15 +25,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-10 23:59:27.016805: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-10 23:59:27.038326: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-10 23:59:27.038541: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4ba22b0 executing computations on platform Host. Devices:
-2022-04-10 23:59:27.038552: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 00:57:25.176381: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 00:57:25.178839: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 00:57:25.179043: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x422b090 executing computations on platform Host. Devices:
+2022-04-11 00:57:25.179053: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-10 23:59:27.054402: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 00:57:25.194811: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
   std_dev = math.sqrt(3.0 / shape[0])
 deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
@@ -74,15 +50,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:00:47.164431: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:00:47.170396: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:00:47.170643: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4afe890 executing computations on platform Host. Devices:
-2022-04-11 00:00:47.170655: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 00:58:47.730476: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 00:58:47.750354: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 00:58:47.750849: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x41b70f0 executing computations on platform Host. Devices:
+2022-04-11 00:58:47.750879: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:00:47.187521: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 00:58:47.769985: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -95,15 +71,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:02:10.925624: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:02:10.928127: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:02:10.928330: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3de04e0 executing computations on platform Host. Devices:
-2022-04-11 00:02:10.928340: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:00:16.926189: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:00:16.928607: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:00:16.928838: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4755a50 executing computations on platform Host. Devices:
+2022-04-11 01:00:16.928857: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:02:10.946793: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:00:16.945017: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -116,15 +92,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:03:39.042852: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:03:39.062283: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:03:39.062528: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4194380 executing computations on platform Host. Devices:
-2022-04-11 00:03:39.062540: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:01:50.682999: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:01:50.702375: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:01:50.702606: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3e870c0 executing computations on platform Host. Devices:
+2022-04-11 01:01:50.702622: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:03:39.080964: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:01:50.718997: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -137,15 +113,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:05:04.734854: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:05:04.737275: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:05:04.737511: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x392a200 executing computations on platform Host. Devices:
-2022-04-11 00:05:04.737524: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:03:21.945764: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:03:21.966254: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:03:21.966449: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4494470 executing computations on platform Host. Devices:
+2022-04-11 01:03:21.966459: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:05:04.751878: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:03:21.981285: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -158,15 +134,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:06:33.678766: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:06:33.698288: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:06:33.698539: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4725a40 executing computations on platform Host. Devices:
-2022-04-11 00:06:33.698552: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:04:58.575237: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:04:58.577664: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:04:58.577900: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4a66270 executing computations on platform Host. Devices:
+2022-04-11 01:04:58.577912: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:06:33.714455: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:04:58.593162: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -179,15 +155,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:08:00.812308: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:08:00.834255: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:08:00.834454: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5151250 executing computations on platform Host. Devices:
-2022-04-11 00:08:00.834464: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:06:31.932633: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:06:31.935155: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:06:31.935390: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x51a2670 executing computations on platform Host. Devices:
+2022-04-11 01:06:31.935404: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:08:00.853013: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:06:31.943861: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -200,15 +176,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:09:31.752507: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:09:31.754946: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:09:31.755142: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x423c390 executing computations on platform Host. Devices:
-2022-04-11 00:09:31.755152: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:08:09.727697: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:08:09.750458: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:08:09.750735: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x509d6b0 executing computations on platform Host. Devices:
+2022-04-11 01:08:09.750749: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:09:31.768671: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:08:09.762436: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -221,15 +197,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:10:58.522889: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:10:58.546242: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:10:58.546498: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x396a920 executing computations on platform Host. Devices:
-2022-04-11 00:10:58.546512: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:09:45.038560: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:09:45.062248: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:09:45.062493: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3f2c730 executing computations on platform Host. Devices:
+2022-04-11 01:09:45.062507: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:10:58.555119: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:09:45.073789: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -242,15 +218,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:12:30.243718: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:12:30.262248: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:12:30.262501: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x41577f0 executing computations on platform Host. Devices:
-2022-04-11 00:12:30.262516: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:11:24.627008: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:11:24.646314: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:11:24.646543: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4389900 executing computations on platform Host. Devices:
+2022-04-11 01:11:24.646555: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:12:30.274036: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:11:24.660076: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -263,15 +239,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:13:58.087379: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:13:58.110287: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:13:58.110531: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x44b7230 executing computations on platform Host. Devices:
-2022-04-11 00:13:58.110542: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:13:00.332016: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:13:00.354369: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:13:00.354593: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55fceb0 executing computations on platform Host. Devices:
+2022-04-11 01:13:00.354606: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:13:58.128864: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:13:00.367348: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -284,15 +260,19 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:15:30.475242: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:15:30.498282: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:15:30.498528: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x46348f0 executing computations on platform Host. Devices:
-2022-04-11 00:15:30.498541: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:14:42.235241: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:14:42.254362: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:14:42.254605: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5084480 executing computations on platform Host. Devices:
+2022-04-11 01:14:42.254618: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:15:30.512932: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:14:42.268931: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / shape[0])
+deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / (shape[0] + shape[1]))
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -305,15 +285,19 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:17:00.512336: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:17:00.534305: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:17:00.534530: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x42e37f0 executing computations on platform Host. Devices:
-2022-04-11 00:17:00.534540: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:15:59.572025: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:15:59.574474: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:15:59.574669: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x51e9520 executing computations on platform Host. Devices:
+2022-04-11 01:15:59.574679: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:17:00.553035: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:15:59.586811: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / shape[0])
+deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / (shape[0] + shape[1]))
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -326,15 +310,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:18:35.059417: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:18:35.078280: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:18:35.078545: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x40450d0 executing computations on platform Host. Devices:
-2022-04-11 00:18:35.078565: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:17:18.038412: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:17:18.058258: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:17:18.058491: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4f60f70 executing computations on platform Host. Devices:
+2022-04-11 01:17:18.058507: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:18:35.088896: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:17:18.071472: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -347,15 +331,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:20:05.626431: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:20:05.628863: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:20:05.629092: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x408c7e0 executing computations on platform Host. Devices:
-2022-04-11 00:20:05.629105: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:18:44.803455: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:18:44.805916: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:18:44.806163: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x43cd2b0 executing computations on platform Host. Devices:
+2022-04-11 01:18:44.806176: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:20:05.647466: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:18:44.820202: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -368,15 +352,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:21:40.946012: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:21:40.966274: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:21:40.966476: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3ce4db0 executing computations on platform Host. Devices:
-2022-04-11 00:21:40.966486: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:20:15.147521: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:20:15.170253: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:20:15.170480: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x41edf70 executing computations on platform Host. Devices:
+2022-04-11 01:20:15.170496: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:21:40.983767: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:20:15.183735: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -389,15 +373,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:23:11.626205: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:23:11.628717: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:23:11.628953: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x39b0730 executing computations on platform Host. Devices:
-2022-04-11 00:23:11.628968: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:21:43.707318: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:21:43.726223: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:21:43.726504: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3f7c320 executing computations on platform Host. Devices:
+2022-04-11 01:21:43.726519: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:23:11.639682: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:21:43.742569: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -410,15 +394,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:24:47.257097: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:24:47.278279: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:24:47.278484: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x560b9a0 executing computations on platform Host. Devices:
-2022-04-11 00:24:47.278494: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:23:17.164009: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:23:17.166485: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:23:17.166687: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4f125c0 executing computations on platform Host. Devices:
+2022-04-11 01:23:17.166697: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:24:47.296997: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:23:17.179592: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -431,15 +415,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:26:20.016409: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:26:20.038374: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:26:20.038577: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x536bde0 executing computations on platform Host. Devices:
-2022-04-11 00:26:20.038587: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:24:48.204839: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:24:48.226242: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:24:48.226441: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3fe4870 executing computations on platform Host. Devices:
+2022-04-11 01:24:48.226451: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:26:20.054764: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:24:48.244942: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -452,15 +436,15 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:27:58.627324: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:27:58.646324: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:27:58.646809: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3c29920 executing computations on platform Host. Devices:
-2022-04-11 00:27:58.646835: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:26:23.159019: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:26:23.186339: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:26:23.186793: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x523db90 executing computations on platform Host. Devices:
+2022-04-11 01:26:23.186830: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:27:58.664173: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:26:23.215509: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
@@ -473,15 +457,577 @@ Instructions for updating:
 Call initializer instance with the dtype argument instead of passing it to the constructor
 WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
 
-2022-04-11 00:29:31.920415: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2022-04-11 00:29:31.942261: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
-2022-04-11 00:29:31.942463: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5125160 executing computations on platform Host. Devices:
-2022-04-11 00:29:31.942473: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2022-04-11 01:27:55.540004: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:27:55.562279: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:27:55.562484: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x53b9250 executing computations on platform Host. Devices:
+2022-04-11 01:27:55.562494: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
 WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
 
 WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
 
-2022-04-11 00:29:31.959163: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2022-04-11 01:27:55.574767: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:29:31.864282: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:29:31.886429: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:29:31.886662: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x53a7990 executing computations on platform Host. Devices:
+2022-04-11 01:29:31.886673: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:29:31.898148: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:31:03.809512: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:31:03.830288: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:31:03.830516: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3fdcfe0 executing computations on platform Host. Devices:
+2022-04-11 01:31:03.830533: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:31:03.842251: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:32:40.014340: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:32:40.038365: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:32:40.038603: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5403ca0 executing computations on platform Host. Devices:
+2022-04-11 01:32:40.038616: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:32:40.057562: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / shape[0])
+deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / (shape[0] + shape[1]))
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:33:54.017736: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:33:54.020218: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:33:54.020417: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x494a030 executing computations on platform Host. Devices:
+2022-04-11 01:33:54.020427: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:33:54.035813: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / shape[0])
+deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / (shape[0] + shape[1]))
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:35:10.382868: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:35:10.406351: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:35:10.406580: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x43767f0 executing computations on platform Host. Devices:
+2022-04-11 01:35:10.406593: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:35:10.424822: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:36:32.437261: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:36:32.458329: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:36:32.458531: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x57d1fb0 executing computations on platform Host. Devices:
+2022-04-11 01:36:32.458541: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:36:32.477081: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:37:58.579828: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:37:58.602237: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:37:58.602486: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3d150c0 executing computations on platform Host. Devices:
+2022-04-11 01:37:58.602500: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:37:58.610669: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:39:22.400243: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:39:22.422372: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:39:22.422572: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5561f70 executing computations on platform Host. Devices:
+2022-04-11 01:39:22.422583: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:39:22.432884: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:40:50.046468: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:40:50.066334: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:40:50.066657: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x380d200 executing computations on platform Host. Devices:
+2022-04-11 01:40:50.066671: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:40:50.078797: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:42:15.141769: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:42:15.144213: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:42:15.144404: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3829740 executing computations on platform Host. Devices:
+2022-04-11 01:42:15.144415: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:42:15.159611: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:43:43.357624: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:43:43.378380: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:43:43.378591: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3af3590 executing computations on platform Host. Devices:
+2022-04-11 01:43:43.378601: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:43:43.394820: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:45:08.500797: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:45:08.522369: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:45:08.522627: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5138290 executing computations on platform Host. Devices:
+2022-04-11 01:45:08.522640: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:45:08.541813: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:46:38.648309: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:46:38.670284: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:46:38.670483: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4bcf1a0 executing computations on platform Host. Devices:
+2022-04-11 01:46:38.670493: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:46:38.683723: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:48:04.711296: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:48:04.730299: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:48:04.730572: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x41d31b0 executing computations on platform Host. Devices:
+2022-04-11 01:48:04.730587: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:48:04.746636: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:49:35.076993: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:49:35.098248: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:49:35.098471: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3bdec30 executing computations on platform Host. Devices:
+2022-04-11 01:49:35.098482: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:49:35.110846: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / shape[0])
+deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / (shape[0] + shape[1]))
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:50:47.977643: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:50:48.002278: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:50:48.002549: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x41c97f0 executing computations on platform Host. Devices:
+2022-04-11 01:50:48.002562: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:50:48.013533: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+deepDMD.py:93: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / shape[0])
+deepDMD.py:90: RuntimeWarning: divide by zero encountered in true_divide
+  std_dev = math.sqrt(3.0 / (shape[0] + shape[1]))
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:52:03.343118: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:52:03.345573: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:52:03.345797: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5007290 executing computations on platform Host. Devices:
+2022-04-11 01:52:03.345809: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:52:03.356222: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:53:23.191085: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:53:23.214380: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:53:23.214624: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4bfb9d0 executing computations on platform Host. Devices:
+2022-04-11 01:53:23.214637: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:53:23.226202: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:54:47.841001: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:54:47.862277: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:54:47.862501: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3ee5230 executing computations on platform Host. Devices:
+2022-04-11 01:54:47.862511: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:54:47.881191: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:56:10.818724: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:56:10.838329: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:56:10.838599: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x44340c0 executing computations on platform Host. Devices:
+2022-04-11 01:56:10.838610: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:56:10.853116: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:57:36.814565: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:57:36.817010: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:57:36.817250: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x438f2f0 executing computations on platform Host. Devices:
+2022-04-11 01:57:36.817270: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:57:36.827614: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 01:59:00.589811: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 01:59:00.610212: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 01:59:00.610451: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4f35080 executing computations on platform Host. Devices:
+2022-04-11 01:59:00.610464: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 01:59:00.627979: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 02:00:28.588450: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 02:00:28.590976: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 02:00:28.591198: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x48b3590 executing computations on platform Host. Devices:
+2022-04-11 02:00:28.591208: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 02:00:28.601956: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 02:01:52.459210: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 02:01:52.461668: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 02:01:52.461898: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3b6fd20 executing computations on platform Host. Devices:
+2022-04-11 02:01:52.461911: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 02:01:52.472613: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 02:03:22.534666: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 02:03:22.537134: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 02:03:22.537365: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x401a010 executing computations on platform Host. Devices:
+2022-04-11 02:03:22.537378: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 02:03:22.555690: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From deepDMD.py:215: The name tf.train.AdagradOptimizer is deprecated. Please use tf.compat.v1.train.AdagradOptimizer instead.
+
+WARNING:tensorflow:From /home/deepuser/.local/lib/python3.6/site-packages/tensorflow/python/training/adagrad.py:76: calling Constant.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From deepDMD.py:67: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2022-04-11 02:04:47.520427: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-04-11 02:04:47.542334: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4200000000 Hz
+2022-04-11 02:04:47.542623: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4303c90 executing computations on platform Host. Devices:
+2022-04-11 02:04:47.542636: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From deepDMD.py:91: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From deepDMD.py:425: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-11 02:04:47.553383: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
 WARNING:tensorflow:From deepDMD.py:108: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
 
 WARNING:tensorflow:From deepDMD.py:117: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
