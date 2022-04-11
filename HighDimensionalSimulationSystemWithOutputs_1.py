@@ -326,15 +326,12 @@ dict_simulation_parameters = {'numpy_random_initial_condition_seed': numpy_rando
 
 
 ## Bash Script Generation
-DATA_SYSTEM_TO_WRITE_BASH_SCRIPT_FOR = 65
-NO_OF_ITERATIONS_PER_GPU = 1
-NO_OF_ITERATIONS_IN_CPU = 1
 
 dict_hp={}
 dict_hp['ls_dict_size'] = [0,1]#,2,3,4,5,6,7,8,9,10]
-dict_hp['ls_nn_layers'] = [3,4]#,5,6]
-dict_hp['System_no'] = []
-dict_hp['System_no'] = dict_hp['System_no'] + list(range(1,3))
+dict_hp['ls_nn_layers'] = [3]#,4]#,5,6]
+dict_hp['System_no'] = [71,72]
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(1,3))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(11,13))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,30))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(31,40))
@@ -392,4 +389,5 @@ for system_no,n_x,n_l in product(dict_hp['System_no'],dict_hp['ls_dict_size'],di
     dict_system_next_run[system_no] = dict_system_next_run[system_no] + 1
 file.write('echo "All sessions are complete" \n')
 file.write('echo "=======================================================" \n')
+file.close()
 
