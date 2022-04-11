@@ -328,12 +328,15 @@ dict_simulation_parameters = {'numpy_random_initial_condition_seed': numpy_rando
 ## Bash Script Generation
 
 dict_hp={}
-dict_hp['ls_dict_size'] = [0,1]#,2,3,4,5,6,7,8,9,10]
-dict_hp['ls_nn_layers'] = [3]#,4]#,5,6]
+dict_hp['ls_dict_size'] = [0,1,2,3,4,5,6,7,8,9,10]
+dict_hp['ls_nn_layers'] = [3,4]
 dict_hp['System_no'] = []
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(1,7))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(11,13))
-dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,24))
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,24)) # gt
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(24,27)) # ot
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(27,28)) # mt
+dict_hp['System_no'] = dict_hp['System_no'] + list(range(28,29)) # qt
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(31,40))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(41,50))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(51,60))
@@ -343,12 +346,12 @@ dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,24))
 # system_running = 'goldentensor'
 # system_running = 'optictensor'
 # system_running = 'microtensor'
-# system_running = 'quantensor'
+system_running = 'quantensor'
 
 file = open('/Users/shara/Desktop/IEEETransactions_2022/' + system_running + '_run.sh','w')
 if system_running in ['microtensor', 'quantensor']:
     ls_device = [' \'/cpu:0\' ']
-elif system_running == ['goldentensor', 'optictensor']:
+elif system_running in ['goldentensor', 'optictensor']:
     ls_device = [' \'/cpu:0\' ', ' \'/gpu:0\' ', ' \'/gpu:1\' ', ' \'/gpu:2\' ', ' \'/gpu:3\' ']
 
 # For each system of interest
