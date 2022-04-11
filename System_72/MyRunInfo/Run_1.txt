@@ -3,7 +3,7 @@
 Number of training snapshots: 580
 Number of validation snapshots: 580
 [INFO] STATE - hidden_vars_list: array([2, 2, 1])
-Optimal Linear model Error:  0.06337111457357378
+Optimal Linear model Error:  0.06337111457357379
 Training begins now!
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -14,14 +14,14 @@ Validation Error Threshold :  1e-06
 Maximum number of Epochs   :  1000
 Batch Size   :  1000
 --------------------------------------
-Epoch No:  1000  |   Training error:  0.035165485
-                   Validation error:  0.03682672
+Epoch No:  1000  |   Training error:  0.0256916
+                   Validation error:  0.028608562
 ---------------------------------------------------------------------------------------------------
-Current Training Error  : 0.035165485
-Current Validation Error      : 0.03682672
+Current Training Error  : 0.0256916
+Current Validation Error      : 0.028608562
 Eigen values: 
-[1.         0.9923069  0.9923069  0.03874692 0.7849335  0.6178163
- 0.6178163  0.32515734]
+[1.         0.92058605 0.92058605 0.69402695 0.5704071  0.37941414
+ 0.37941414 0.13236636]
 [COMP] The identified Koopman operator is STABLE
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -32,14 +32,14 @@ Validation Error Threshold :  1e-06
 Maximum number of Epochs   :  1000
 Batch Size   :  1000
 --------------------------------------
-Epoch No:  1000  |   Training error:  0.025831064
-                   Validation error:  0.02791885
+Epoch No:  1000  |   Training error:  0.019068073
+                   Validation error:  0.022546314
 ---------------------------------------------------------------------------------------------------
-Current Training Error  : 0.025831064
-Current Validation Error      : 0.02791885
+Current Training Error  : 0.019068073
+Current Validation Error      : 0.022546314
 Eigen values: 
-[1.         0.9301254  0.9301254  0.700216   0.56272024 0.19632643
- 0.19632643 0.2739476 ]
+[1.         0.92064726 0.92064726 0.41424152 0.41424152 0.23823683
+ 0.690032   0.5901891 ]
 [COMP] The identified Koopman operator is STABLE
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -50,19 +50,19 @@ Validation Error Threshold :  1e-07
 Maximum number of Epochs   :  1000
 Batch Size   :  1000
 --------------------------------------
-Epoch No:  1000  |   Training error:  0.023855362
-                   Validation error:  0.02589626
+Epoch No:  1000  |   Training error:  0.01797831
+                   Validation error:  0.021451574
 ---------------------------------------------------------------------------------------------------
-Current Training Error  : 0.023855362
-Current Validation Error      : 0.02589626
+Current Training Error  : 0.01797831
+Current Validation Error      : 0.021451574
 Eigen values: 
-[1.         0.9266125  0.9266125  0.69249845 0.5957262  0.21630532
- 0.21630532 0.20547041]
+[1.         0.9227351  0.9227351  0.41475144 0.41475144 0.6897847
+ 0.591557   0.2515755 ]
 [COMP] The identified Koopman operator is STABLE
 ---   TRAINING COMPLETE   ---
 Eigen values: 
-[1.         0.9266125  0.9266125  0.69249845 0.5957262  0.21630532
- 0.21630532 0.20547041]
+[1.         0.9227351  0.9227351  0.41475144 0.41475144 0.6897847
+ 0.591557   0.2515755 ]
 [COMP] The identified Koopman operator is STABLE
 ------ ------ -----
 ----- Run Info ----
@@ -74,10 +74,10 @@ activation function           tanh       tanh       tanh
 no of epochs                  1000       1000       1000
 batch size                    1000       1000       1000
 step size                      0.5        0.3        0.1
-training error           0.0351655  0.0258311  0.0238554
-validation error         0.0368267  0.0279188  0.0258963
-r^2 training accuracy       92.833    94.7384    95.1044
-r^2 validation accuracy    91.3075    93.4268    93.8531
-r^2 X train accuracy        92.833    94.7384    95.1044
-r^2 X valid accuracy       91.3075    93.4268    93.8531
+training error           0.0256916  0.0190681  0.0179783
+validation error         0.0286086  0.0225463  0.0214516
+r^2 training accuracy      94.7341    96.0696    96.2963
+r^2 validation accuracy    93.2214    94.6228    94.8874
+r^2 X train accuracy       94.7341    96.0696    96.2963
+r^2 X valid accuracy       93.2214    94.6228    94.8874
 ------ ------ -----

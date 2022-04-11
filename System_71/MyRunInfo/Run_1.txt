@@ -14,13 +14,13 @@ Validation Error Threshold :  1e-06
 Maximum number of Epochs   :  1000
 Batch Size   :  1000
 --------------------------------------
-Epoch No:  1000  |   Training error:  0.035350304
-                   Validation error:  0.039833106
+Epoch No:  1000  |   Training error:  0.032173164
+                   Validation error:  0.035114236
 ---------------------------------------------------------------------------------------------------
-Current Training Error  : 0.035350304
-Current Validation Error      : 0.039833106
+Current Training Error  : 0.032173164
+Current Validation Error      : 0.035114236
 Eigen values: 
-[1.         0.54035556 0.8916474  0.8916474  0.85855997]
+[1.         0.47663948 0.94934183 0.94934183 0.8473451 ]
 [COMP] The identified Koopman operator is STABLE
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -31,13 +31,13 @@ Validation Error Threshold :  1e-06
 Maximum number of Epochs   :  1000
 Batch Size   :  1000
 --------------------------------------
-Epoch No:  1000  |   Training error:  0.03210958
-                   Validation error:  0.035288453
+Epoch No:  1000  |   Training error:  0.030283852
+                   Validation error:  0.034178272
 ---------------------------------------------------------------------------------------------------
-Current Training Error  : 0.03210958
-Current Validation Error      : 0.035288453
+Current Training Error  : 0.030283852
+Current Validation Error      : 0.034178272
 Eigen values: 
-[1.        0.4939399 0.9442551 0.9442551 0.8566357]
+[1.         0.50307566 0.9297589  0.9297589  0.85844624]
 [COMP] The identified Koopman operator is STABLE
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -48,17 +48,17 @@ Validation Error Threshold :  1e-07
 Maximum number of Epochs   :  1000
 Batch Size   :  1000
 --------------------------------------
-Epoch No:  1000  |   Training error:  0.031966135
-                   Validation error:  0.03539208
+Epoch No:  1000  |   Training error:  0.029844934
+                   Validation error:  0.034836322
 ---------------------------------------------------------------------------------------------------
-Current Training Error  : 0.031966135
-Current Validation Error      : 0.03539208
+Current Training Error  : 0.029844934
+Current Validation Error      : 0.034836322
 Eigen values: 
-[1.         0.49459785 0.94488174 0.94488174 0.85379225]
+[1.         0.5207207  0.9286123  0.9286123  0.85702455]
 [COMP] The identified Koopman operator is STABLE
 ---   TRAINING COMPLETE   ---
 Eigen values: 
-[1.         0.49459785 0.94488174 0.94488174 0.85379225]
+[1.         0.5207207  0.9286123  0.9286123  0.85702455]
 [COMP] The identified Koopman operator is STABLE
 ------ ------ -----
 ----- Run Info ----
@@ -70,10 +70,10 @@ activation function           tanh       tanh       tanh
 no of epochs                  1000       1000       1000
 batch size                    1000       1000       1000
 step size                      0.5        0.3        0.1
-training error           0.0353503  0.0321096  0.0319661
-validation error         0.0398331  0.0352885  0.0353921
-r^2 training accuracy      92.1659    92.8278    92.8583
-r^2 validation accuracy     89.503    90.6145    90.5847
-r^2 X train accuracy       92.1659    92.8278    92.8583
-r^2 X valid accuracy        89.503    90.6145    90.5847
+training error           0.0321732  0.0302839  0.0298449
+validation error         0.0351142  0.0341783  0.0348363
+r^2 training accuracy      92.8204    93.2268    93.3192
+r^2 validation accuracy    90.6663    90.8905    90.7064
+r^2 X train accuracy       92.8204    93.2268    93.3192
+r^2 X valid accuracy       90.6663    90.8905    90.7064
 ------ ------ -----

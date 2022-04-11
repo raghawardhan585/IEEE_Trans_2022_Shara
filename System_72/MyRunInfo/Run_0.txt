@@ -3,7 +3,7 @@
 Number of training snapshots: 580
 Number of validation snapshots: 580
 [INFO] STATE - hidden_vars_list: array([0, 0, 0])
-Optimal Linear model Error:  0.06337111457357378
+Optimal Linear model Error:  0.06337111457357379
 Training begins now!
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -20,8 +20,8 @@ Epoch No:  1000  |   Training error:  0.046817202
 Current Training Error  : 0.046817202
 Current Validation Error      : 0.048540894
 Eigen values: 
-[1.         0.92266953 0.92266953 0.655967   0.655967   0.32526353
- 0.09508415]
+[1.         0.9226696  0.9226696  0.655967   0.655967   0.3252635
+ 0.09508413]
 [COMP] The identified Koopman operator is STABLE
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -38,8 +38,8 @@ Epoch No:  1000  |   Training error:  0.046817202
 Current Training Error  : 0.046817202
 Current Validation Error      : 0.048540894
 Eigen values: 
-[1.         0.92266953 0.92266953 0.655967   0.655967   0.3252635
- 0.09508413]
+[1.         0.9226696  0.9226696  0.655967   0.655967   0.32526353
+ 0.09508414]
 [COMP] The identified Koopman operator is STABLE
 ======================================
 CURRENT TRAINING PARAMETERS
@@ -56,13 +56,13 @@ Epoch No:  1000  |   Training error:  0.046817202
 Current Training Error  : 0.046817202
 Current Validation Error      : 0.048540894
 Eigen values: 
-[1.         0.92266953 0.92266953 0.655967   0.655967   0.32526353
- 0.09508415]
+[1.         0.9226696  0.9226696  0.655967   0.655967   0.32526353
+ 0.09508414]
 [COMP] The identified Koopman operator is STABLE
 ---   TRAINING COMPLETE   ---
 Eigen values: 
-[1.         0.92266953 0.92266953 0.655967   0.655967   0.32526353
- 0.09508415]
+[1.         0.9226696  0.9226696  0.655967   0.655967   0.32526353
+ 0.09508414]
 [COMP] The identified Koopman operator is STABLE
 ------ ------ -----
 ----- Run Info ----
