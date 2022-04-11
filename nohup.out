@@ -1,0 +1,6 @@
+microtensor_run.sh: 7: microtensor_run.sh: cannot create System_71/MyRunInfo/Run_0.txt: Directory nonexistent
+microtensor_run.sh: 9: microtensor_run.sh: cannot create System_71/MyRunInfo/Run_1.txt: Directory nonexistent
+microtensor_run.sh: 11: microtensor_run.sh: cannot create System_72/MyRunInfo/Run_0.txt: Directory nonexistent
+microtensor_run.sh: 13: microtensor_run.sh: cannot create System_72/MyRunInfo/Run_1.txt: Directory nonexistent
+All sessions are complete
+=======================================================
