@@ -361,6 +361,9 @@ for system_no in dict_hp['System_no']:
     runinfo_folder = 'System_' + str(system_no) + '/MyRunInfo'
     if not os.path.exists(runinfo_folder):
         os.mkdir(runinfo_folder)
+    if not os.path.exists(runinfo_folder + '/dummy_proxy.txt'):
+        with open(runinfo_folder + '/dummy_proxy.txt', 'w') as f:
+            f.write('This is created so that git does not experience an issue with')
     # Get the latest run number for each system # TODO - Check this part of the code
     try:
         ls_all_run_files = os.listdir('System_' + str(system_no) + '/MyMac')
