@@ -1,0 +1,79 @@
+[INFO] Number of total samples: 2360
+[INFO] Nonlinear system state dimension: 3
+Number of training snapshots: 1180
+Number of validation snapshots: 1180
+[INFO] STATE - hidden_vars_list: array([2, 2, 1])
+Optimal Linear model Error:  0.0787996430360803
+Training begins now!
+======================================
+CURRENT TRAINING PARAMETERS
+======================================
+Step Size Value            :  0.5
+Train Error Threshold      :  1e-20
+Validation Error Threshold :  1e-06
+Maximum number of Epochs   :  1000
+Batch Size   :  1000
+--------------------------------------
+Epoch No:  1000  |   Training error:  0.035350304
+                   Validation error:  0.039833106
+---------------------------------------------------------------------------------------------------
+Current Training Error  : 0.035350304
+Current Validation Error      : 0.039833106
+Eigen values: 
+[1.         0.54035556 0.8916474  0.8916474  0.85855997]
+[COMP] The identified Koopman operator is STABLE
+======================================
+CURRENT TRAINING PARAMETERS
+======================================
+Step Size Value            :  0.3
+Train Error Threshold      :  1e-10
+Validation Error Threshold :  1e-06
+Maximum number of Epochs   :  1000
+Batch Size   :  1000
+--------------------------------------
+Epoch No:  1000  |   Training error:  0.03210958
+                   Validation error:  0.035288453
+---------------------------------------------------------------------------------------------------
+Current Training Error  : 0.03210958
+Current Validation Error      : 0.035288453
+Eigen values: 
+[1.        0.4939399 0.9442551 0.9442551 0.8566357]
+[COMP] The identified Koopman operator is STABLE
+======================================
+CURRENT TRAINING PARAMETERS
+======================================
+Step Size Value            :  0.1
+Train Error Threshold      :  1e-10
+Validation Error Threshold :  1e-07
+Maximum number of Epochs   :  1000
+Batch Size   :  1000
+--------------------------------------
+Epoch No:  1000  |   Training error:  0.031966135
+                   Validation error:  0.03539208
+---------------------------------------------------------------------------------------------------
+Current Training Error  : 0.031966135
+Current Validation Error      : 0.03539208
+Eigen values: 
+[1.         0.49459785 0.94488174 0.94488174 0.85379225]
+[COMP] The identified Koopman operator is STABLE
+---   TRAINING COMPLETE   ---
+Eigen values: 
+[1.         0.49459785 0.94488174 0.94488174 0.85379225]
+[COMP] The identified Koopman operator is STABLE
+------ ------ -----
+----- Run Info ----
+------ ------ -----
+                                 0          1          2
+x_hidden_variable_list   [2, 2, 1]  [2, 2, 1]  [2, 2, 1]
+activation flag                  3          3          3
+activation function           tanh       tanh       tanh
+no of epochs                  1000       1000       1000
+batch size                    1000       1000       1000
+step size                      0.5        0.3        0.1
+training error           0.0353503  0.0321096  0.0319661
+validation error         0.0398331  0.0352885  0.0353921
+r^2 training accuracy      92.1659    92.8278    92.8583
+r^2 validation accuracy     89.503    90.6145    90.5847
+r^2 X train accuracy       92.1659    92.8278    92.8583
+r^2 X valid accuracy        89.503    90.6145    90.5847
+------ ------ -----

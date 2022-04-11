@@ -14,14 +14,10 @@ import os
 import shutil
 import pandas as pd
 
-# Default Parameters
-SYSTEM_NAME = 'Shara'
-# SYSTEM_NAME = 'GoldenTensor'
-# SYSTEM_NAME = 'Tensor'
+# DEVICE_NAME = '/cpu:0'
+# SYSTEM_NO = 23
 
-DEVICE_NAME = '/cpu:0'
 # RUN_NUMBER = 1
-SYSTEM_NO = 23
 # max_epochs = 2000
 # train_error_threshold = 1e-6
 # valid_error_threshold = 1e-6;
@@ -354,7 +350,29 @@ def get_best_K_DMD(Xp_train,Xf_train,Xp_valid,Xf_valid):
 # ==============================================================================================================================
 
 
+
+
 ## Main Block
+STATE_RUN_NUMBER_PROCURED = False
+
+import sys
+if len(sys.argv)>1:
+    DEVICE_NAME = sys.argv[1]
+    if DEVICE_NAME not in ['/cpu:0','/gpu:0','/gpu:1','/gpu:2','/gpu:3']:
+        DEVICE_NAME = '/cpu:0'
+if len(sys.argv)>2:
+    SYSTEM_NO = sys.argv[2]
+if len(sys.argv) > 3:
+    RUN_NUMBER = np.int(sys.argv[3])
+    STATE_RUN_NUMBER_PROCURED = True
+if len(sys.argv) > 4:
+    x_deep_dict_size = np.int(sys.argv[4])
+if len(sys.argv)>5:
+    n_x_nn_layers = np.int(sys.argv[5])
+if len(sys.argv)>6:
+    n_x_nn_nodes = np.int(sys.argv[6])
+
+
 # data_directory = os.path.normpath(os.getcwd() + os.sep + os.pardir) +'/koopman_data/'
 data_directory = 'System_' + str(SYSTEM_NO)
 data_suffix = 'System_' + str(SYSTEM_NO) + '_DeepDMDdata_Scaled.pickle'
@@ -451,18 +469,21 @@ valid_error = dict_model_metrics['loss_fn'].eval(feed_dict=feed_dict_valid)
 ## Saving the results of the run
 
 # Find the runs in the folder
-if SYSTEM_NAME == 'Shara':
-    storage_folder = data_directory + '/MyMac'
+storage_folder = data_directory + '/MyMac'
 if not os.path.exists(storage_folder):
     os.mkdir(storage_folder)
-    RUN_NUMBER = 1
+    if not STATE_RUN_NUMBER_PROCURED:
+        RUN_NUMBER = 1
 else:
+    if not STATE_RUN_NUMBER_PROCURED:
     # Find the last run number and add 1 to it
-    ls_all_run_files = os.listdir(storage_folder)
-    ls_run_numbers = [np.int(i[4:]) for i in ls_all_run_files if 'RUN_' in i]
-    # RUN_NUMBER = np.min(list(set(list(range(1,np.max(ls_run_numbers) + 2))) - set(ls_run_numbers)))
-    RUN_NUMBER = np.int(np.max(ls_run_numbers)) + 1
+        ls_all_run_files = os.listdir(storage_folder)
+        ls_run_numbers = [np.int(i[4:]) for i in ls_all_run_files if 'RUN_' in i]
+        # RUN_NUMBER = np.min(list(set(list(range(1,np.max(ls_run_numbers) + 2))) - set(ls_run_numbers)))
+        RUN_NUMBER = np.int(np.max(ls_run_numbers)) + 1
 FOLDER_NAME = storage_folder + '/RUN_' + str(RUN_NUMBER)
+if os.path.exists(FOLDER_NAME):
+    shutil.rmtree(FOLDER_NAME)
 os.mkdir(FOLDER_NAME)
 
 dict_dump = {}
