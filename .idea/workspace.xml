@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fabb1f8c-f9b0-458b-b08d-8f24a41574c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Analysis1_WhatDoesEachOutputCapture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Best_Model_Functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HighDimensionalSimulationSystemWithOutputs_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HighDimensionalSimulationSystemWithOutputs_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deepDMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepDMD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goldentensor_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/goldentensor_run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post_learning_deepDMD.py" beforeDir="false" afterPath="$PROJECT_DIR$/post_learning_deepDMD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microtensor_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/microtensor_run.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +177,7 @@
       <workItem from="1650148069643" duration="2373000" />
       <workItem from="1650590928864" duration="8586000" />
       <workItem from="1651364972396" duration="8353000" />
-      <workItem from="1651386474013" duration="18425000" />
+      <workItem from="1651386474013" duration="18742000" />
     </task>
     <servers />
   </component>
