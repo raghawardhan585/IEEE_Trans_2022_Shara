@@ -312,30 +312,23 @@ dict_simulation_parameters = {'numpy_random_initial_condition_seed': numpy_rando
 #     dict_measurement_info_70 = {'state_measured': False, 'output_measured': True, 'n_delay_embedding': n_delay_embedding, 'ls_measured_output_indices': [0,1,2], 'ls_measured_state_indices': [], 'formulate_Koopman_output_data_with_intersection': False }
 #     dict_measurement_info_70.update(dict_simulation_parameters)
 #     save_system(ls_data, dict_measurement_info = dict_measurement_info_70, SYSTEM_NO =70+n_delay_embedding)
-#
-
-
-
-
-
-
-
-
-
 
 
 
 ## Bash Script Generation
 
+N_NODES_PER_OBSERVABLE = 2
+
 dict_hp={}
-dict_hp['ls_dict_size'] = [6,7,8]
-dict_hp['ls_nn_layers'] = [3,4]
+dict_hp['ls_dict_size'] = [4,8,12]
+dict_hp['ls_nn_layers'] = [3,4,5]
 dict_hp['System_no'] = []
+dict_hp['System_no'] = dict_hp['System_no'] + [6]
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(1,7))   #mt
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(11,13))
-dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,29))
-dict_hp['System_no'] = dict_hp['System_no'] + list(range(31,40))
-dict_hp['System_no'] = dict_hp['System_no'] + list(range(41,50))
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(21,29))
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(31,40))
+# dict_hp['System_no'] = dict_hp['System_no'] + list(range(41,50))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(51,60))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(61,70))
 # dict_hp['System_no'] = dict_hp['System_no'] + list(range(71,80))
@@ -380,7 +373,7 @@ for system_no,n_x,n_l in product(dict_hp['System_no'],dict_hp['ls_dict_size'],di
     device_name = ls_device[np.mod(run_number,n_devices)]
     # Check if run file exists
     run_info_file = ' > System_' + str(system_no) + '/MyRunInfo/Run_' + str(run_number) + '.txt & \n'
-    n_n = np.int(np.ceil(n_x*1.5))
+    n_n = np.int(np.ceil(n_x*N_NODES_PER_OBSERVABLE))
     file.write('python3 deepDMD.py' + device_name + str(system_no) + ' ' + str(run_number) + ' ' + str(n_x) + ' ' + str(n_l) + ' ' + str(n_n) + run_info_file)
     if device_name == ls_device[-1]:
         file.write('wait\n')

@@ -42,7 +42,7 @@ def get_dict_param(run_folder_name_curr,SYS_NO,sess):
         yfT_feed = tf.get_collection('yfT_feed')[0]
         dict_p['ypT_feed'] = ypT_feed
         dict_p['yfT_feed'] = yfT_feed
-        WhT = tf.get_collection('WhT')[0];
+        WhT = tf.get_collection('WhT')[0]
         WhT_num = sess.run(WhT)
         dict_p['WhT_num'] = WhT_num
     except:
@@ -52,8 +52,18 @@ def get_dict_param(run_folder_name_curr,SYS_NO,sess):
 
 
 ##
+
+#
+#
+# sess = tf.InteractiveSession()
+# dict_model = get_dict_param(run_folder_name,SYSTEM_NO,sess)
+#
+#
+# tf.reset_default_graph()
+# sess.close()
+##
 sess = tf.InteractiveSession()
-SYSTEM_NO = 12
+SYSTEM_NO = 71
 RUN_NO = 1
 run_folder_name = 'System_' + str(SYSTEM_NO) + '/MyMac/RUN_' + str(RUN_NO)
 
@@ -174,3 +184,6 @@ ax[0,1].legend()
 ax[1,0].legend()
 ax[1,1].legend()
 f.show()
+
+
+##
